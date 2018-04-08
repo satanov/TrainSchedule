@@ -40,7 +40,6 @@ public class TrainSchedule {
          */
 
         void removeStation(String nameStation) {
-
             intermediateStation.remove(nameStation);
         }
 
@@ -50,7 +49,6 @@ public class TrainSchedule {
          */
 
         List<String> getIntermediateStation() {
-
             return intermediateStation;
         }
 
